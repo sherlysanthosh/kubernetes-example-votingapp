@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: result-service
   labels:
-    - name: result-service
+      name: result-service
       app: demo-voting-app
 spec:
   type: LoadBalancer

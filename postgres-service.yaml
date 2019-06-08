@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: db
   labels:
-    - name: db-service
+      name: db-service
       app: demo-voting-app
 spec:
   type: ClusterIP
